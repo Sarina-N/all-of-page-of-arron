@@ -1,0 +1,52 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+@theme {
+  --color-primary: #1a1a1a;
+  --color-head-botton: #030304;
+  --color-button: #ff9142;
+  --color-text: #a8a8a8;
+  --color-paragraf: #A8A8A8;
+}
+html {
+  font-size: 62.5%;
+}
+.my-container {
+  padding: 50px 150px;
+}
+@theme {
+  --font-rubik: "Rubik", sans-serif;
+  --font-syne: "Syne", sans-serif;
+  --font-inter: "Inter", sans-serif;
+}
+.my-margin{
+  margin: 0 auto;
+  max-width: 1440px;
+}
+.max-wi-two{
+  max-width: 1440px ;
+}
+
+
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/Inter-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/Inter-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/Inter-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+
+body {
+  font-family: var(--font-inter);
+}
