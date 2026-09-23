@@ -50,3 +50,9 @@ html {
 body {
   font-family: var(--font-inter);
 }
+@media only screen and (max-width: 640px) {
+  .my-container {
+    width: 100vw;
+    padding: 33px 20px;
+  }
+}
